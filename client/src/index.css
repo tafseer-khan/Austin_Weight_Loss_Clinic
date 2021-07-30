@@ -1,13 +1,46 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffffe5;
+  overflow: hidden;
+  margin:auto;
+  height: fit-content;
+  width:fit-content;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #49494996;
+  color: white;
+}
 .homeBG{
   background-color: #5e5e5e27;
   background-image: url("./assets/living-up.jpg");
-  height: 100%;
+  background-size: cover;
+  height: 100vh;
   /* background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%23843bf7' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"); */
 }
 .aboutBG{
-  background-image: url("./assets/wide-restrictive-diets-mortality.jpg");
-  background-size:cover;
-  height: 100%;
+  background-image: url("./assets/file-20210216-19-l7hmwo.jpg");
+  background-size: cover;
+  min-height: 100vh;
 }
 .appointmentBG{
   background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjQ2LjE5IiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMzQuNjQxMDE2MTUxMzc3NTUsMzAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSgxMzUpICI+PHJlY3QgaWQ9InBhdHRlcm4tYmFja2dyb3VuZCIgd2lkdGg9IjQwMCUiIGhlaWdodD0iNDAwJSIgZmlsbD0icmdiYSgyNTIsIDEyOSwgMTI5LDEpIj48L3JlY3Q+IDxwYXRoIGZpbGw9InJnYmEoOTksIDE3OSwgMjM3LDEpIiBkPSJNLTIwIC0yMCBoMjAwIHYyMDAgaC0yMDAgTTMzLjc3IDI1LjVMMjUuOTggMjFMMTguMTkgMjUuNUwxOC4xOSAzNC41TDI1Ljk4IDM5TDMzLjc3IDM0LjV6TTE2LjQ1IDI1LjVMOC42NiAyMUwwLjg3IDI1LjVMMC44NyAzNC41TDguNjYgMzlMMTYuNDUgMzQuNXpNNy43OSAxMC41TDAgNkwtNy43OSAxMC41TC03Ljc5IDE5LjVMMCAyNEw3Ljc5IDE5LjV6TTE2LjQ1IC00LjVMOC42NiAtOUwwLjg3IC00LjVMMC44NyA0LjVMOC42NiA5TDE2LjQ1IDQuNXpNMzMuNzcgLTQuNUwyNS45OCAtOUwxOC4xOSAtNC41TDE4LjE5IDQuNUwyNS45OCA5TDMzLjc3IDQuNXpNNDIuNDMgMTAuNUwzNC42NCA2TDI2Ljg1IDEwLjVMMjYuODUgMTkuNUwzNC42NCAyNEw0Mi40MyAxOS41ek0yNS4xMSAxMC41TDE3LjMyIDZMOS41MyAxMC41TDkuNTMgMTkuNUwxNy4zMiAyNEwyNS4xMSAxOS41eiI+PC9wYXRoPjxwYXRoIGZpbGw9InJnYmEoMTU0LCAyMzAsIDE4MCwxKSIgZD0iTS0yMCAtMjAgaDIwMCB2MjAwIGgtMjAwIE0yNC4yMSAyNS4yNUwxNS45OCAyMC41TDcuNzUgMjUuMjVMNy43NSAzNC43NUwxNS45OCAzOS41TDI0LjIxIDM0Ljc1ek02Ljg5IDI1LjI1TC0xLjM0IDIwLjVMLTkuNTcgMjUuMjVMLTkuNTcgMzQuNzVMLTEuMzQgMzkuNUw2Ljg5IDM0Ljc1ek0tMS43NyAxMC4yNUwtMTAgNS41TC0xOC4yMyAxMC4yNUwtMTguMjMgMTkuNzVMLTEwIDI0LjVMLTEuNzcgMTkuNzV6TTYuODkgLTQuNzVMLTEuMzQgLTkuNUwtOS41NyAtNC43NUwtOS41NyA0Ljc1TC0xLjM0IDkuNUw2Ljg5IDQuNzV6TTI0LjIxIC00Ljc1TDE1Ljk4IC05LjVMNy43NSAtNC43NUw3Ljc1IDQuNzVMMTUuOTggOS41TDI0LjIxIDQuNzV6TTMyLjg3IDEwLjI1TDI0LjY0IDUuNUwxNi40MSAxMC4yNUwxNi40MSAxOS43NUwyNC42NCAyNC41TDMyLjg3IDE5Ljc1ek00MS41MyAyNS4yNUwzMy4zIDIwLjVMMjUuMDcgMjUuMjVMMjUuMDcgMzQuNzVMMzMuMyAzOS41TDQxLjUzIDM0Ljc1ek0xNS41NSA0MC4yNUw3LjMyIDM1LjVMLTAuOTEgNDAuMjVMLTAuOTEgNDkuNzVMNy4zMiA1NC41TDE1LjU1IDQ5Ljc1ek0tMTAuNDMgMjUuMjVMLTE4LjY2IDIwLjVMLTI2Ljg5IDI1LjI1TC0yNi44OSAzNC43NUwtMTguNjYgMzkuNUwtMTAuNDMgMzQuNzV6TS0xMC40MyAtNC43NUwtMTguNjYgLTkuNUwtMjYuODkgLTQuNzVMLTI2Ljg5IDQuNzVMLTE4LjY2IDkuNUwtMTAuNDMgNC43NXpNMTUuNTUgLTE5Ljc1TDcuMzIgLTI0LjVMLTAuOTEgLTE5Ljc1TC0wLjkxIC0xMC4yNUw3LjMyIC01LjVMMTUuNTUgLTEwLjI1ek00MS41MyAtNC43NUwzMy4zIC05LjVMMjUuMDcgLTQuNzVMMjUuMDcgNC43NUwzMy4zIDkuNUw0MS41MyA0Ljc1ek0zMi44NyA0MC4yNUwyNC42NCAzNS41TDE2LjQxIDQwLjI1TDE2LjQxIDQ5Ljc1TDI0LjY0IDU0LjVMMzIuODcgNDkuNzV6TS0xLjc3IDQwLjI1TC0xMCAzNS41TC0xOC4yMyA0MC4yNUwtMTguMjMgNDkuNzVMLTEwIDU0LjVMLTEuNzcgNDkuNzV6TS0xOS4wOSAxMC4yNUwtMjcuMzIgNS41TC0zNS41NSAxMC4yNUwtMzUuNTUgMTkuNzVMLTI3LjMyIDI0LjVMLTE5LjA5IDE5Ljc1ek0tMS43NyAtMTkuNzVMLTEwIC0yNC41TC0xOC4yMyAtMTkuNzVMLTE4LjIzIC0xMC4yNUwtMTAgLTUuNUwtMS43NyAtMTAuMjV6TTMyLjg3IC0xOS43NUwyNC42NCAtMjQuNUwxNi40MSAtMTkuNzVMMTYuNDEgLTEwLjI1TDI0LjY0IC01LjVMMzIuODcgLTEwLjI1ek01MC4xOSAxMC4yNUw0MS45NiA1LjVMMzMuNzMgMTAuMjVMMzMuNzMgMTkuNzVMNDEuOTYgMjQuNUw1MC4xOSAxOS43NXpNMTUuNTUgMTAuMjVMNy4zMiA1LjVMLTAuOTEgMTAuMjVMLTAuOTEgMTkuNzVMNy4zMiAyNC41TDE1LjU1IDE5Ljc1eiI+PC9wYXRoPjwvcGF0dGVybj4gIDwvZGVmcz4gPHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSI+PC9yZWN0Pjwvc3ZnPg==")
@@ -15,11 +48,11 @@
 .servicesBG{
   background-image: url("./assets/nutrition.jpg");
   background-size:cover;
-  height: 100%;
+  min-height: 100vh;
 }
 .contactBG{
   background-image:url("./assets/Mapline_AWC_Map\ \(2\).jpg");
-  height:100%;
+  min-height: 100vh;
   background-size: cover;
 }
 body > #root > div {
@@ -28,53 +61,37 @@ body > #root > div {
 
 @media only screen and (max-width: 700px) {
   .full{
-    display: none;
+    font-size: small;
   }
 }
-@media only screen and (min-width: 700px) {
+/* @media only screen and (min-width: 700px) {
   .short{
     display: none;
   }
-}
-.navbar.center{
-  text-align: center;
-  display: inline-block;
-  float: none;
-}
-.navbar{
-  background-color: #ffffffe5!important;
-  margin:auto;
-  width:fit-content;
-  border-radius: 10px;
-}
-.nav-item{
-  margin:auto;
-  font-family: 'Julius Sans One', sans-serif!important;
-  font-size: 20px;
-  font-weight:900;
-}
+} */
+
 .jumbotron{
   width:fit-content;
-  height: fit-content;
+  margin-top: 20vh!important;
   text-align: center;
   margin:auto;
-  margin-top: 10%;
   border-radius: 20px;
   background-color: #ffffffe5;
   font-family: 'Julius Sans One', sans-serif;
 }
 .jheader{
-  font-size:60px;
+  font-size:7vh;
   font-weight: bolder;
 }
 .jP{
-  font-size:35px;
+  font-size:4vh;
   font-weight: bolder;
   color:rgb(94, 94, 94);
 }
 .card{
   margin-top: 1%!important;
-  width:60vw;
+  width:80vw;
+  font-size: 2vh;
   margin:auto;
   background-color: #ffffffe5;
   border-radius: 20px;
@@ -83,10 +100,9 @@ body > #root > div {
 }
 .aboutBG > .card> .card-body > h1{
   text-align: center;
+  font-size: 3vh;
 }
-/* .aboutBG > .card> .card-body > h4{
-  text-align: center;
-} */
+
 #schedulingframe{
 display:block;
 margin:auto;
@@ -103,4 +119,25 @@ margin:auto;
 #location{
   background-color: #ffffffe5;
   margin-bottom:7%;
+}
+
+#alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
