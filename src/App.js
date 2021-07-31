@@ -5,7 +5,6 @@ import Services from "./pages/Services"
 import Appointment  from "./pages/Appointment"
 import Contact from "./pages/Contact"
 import Home from "./pages/Home"
-import Update from "./pages/UpdateAlert"
 
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Route exact path="/Services" component={Services} />
         <Route exact path="/Appointment" component={Appointment} />
         <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/Update" component={Update} />
 
       </div>
 
