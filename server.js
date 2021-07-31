@@ -32,6 +32,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/awc",
   useCreateIndex: true,
   useFindAndModify: false}
 );
+mongoose.connection.on('connected', () => console.log('Connected'));
+mongoose.connection.on('error', () => console.log('Connection failed with - ',err));
 
 // Start the API server
 app.listen(PORT, function() {

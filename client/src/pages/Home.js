@@ -9,7 +9,7 @@ function Home(){
 
         return (
             <div class="homeBG">
-                {/* <Alert/> */}
+                <Alert/>
                 <Navbar />
                 <Jumbotron />
             </div>
