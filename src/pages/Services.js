@@ -19,7 +19,7 @@ function Services() {
                             Prescription weight loss medication program with nutrition and lifestyle change counseling
                         </li>
                         <li>
-                            Medication prescriptions (filled at your pharmacy) such as: Phentermine, Tenuate, Bontril, Contrave, Qysemia, & Saxenda (FDA approved weight loss medications)
+                            Medication prescriptions (filled at your pharmacy) such as: Phentermine, Tenuate, Wegovy,  Bontril, Contrave, Qysemia, & Saxenda (FDA approved weight loss medications)
                         </li>
                     </ul>
                     <br></br>
@@ -36,6 +36,14 @@ function Services() {
                         </ul>
                         </li>
                     </ul>
+                    <br></br>
+                    <h4>
+                        Testosterone with Bio-identical Hormone
+                    </h4>
+                    <br></br>
+                    <h4>
+                        Female Hormone Replace
+                    </h4>
                     <br></br>
                     <h4>
                         Other Supplements
