@@ -17,19 +17,10 @@ function About() {
                     {/* Our goal is to make it easy and manageable, so you dont have to stress.  */}
                     </h1>
                     <hr />
-                    <motion.h4
-                        initial="hidden"
-                        animate="visible"
-                        transition={{ duration: 2 }}
-                        variants={variants}
-                    >
+                    <h4>
                         Our goal is to make it easy and manageable, so you dont have to stress.
-                    </motion.h4>
-                    <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        transition={{ duration: 5 }}
-                        variants={variants}>
+                    </h4>
+                    <div>
                         <br />
                     Taking care of your health is the first step in taking charge of your life,
                     and we commend you for taking an interest in doing so!
@@ -40,14 +31,11 @@ function About() {
                     <br /><br />
                     Through proper medication, and medical professional guided dieting you
                     will get a jumpstart towards your weight loss goals.
-                    </motion.div>
+                    </div>
                 </div>
 
             </div>
-            <motion.div class="card"
-                initial={{ y: 1000 }}
-                animate={{ y: 0 }}
-                transition={{ ease: "easeIn", duration: 4 }}>
+            <div class="card">
                 <div class="card-body">
                     <h1>
                         And Meet Your New Bestfriend!
@@ -65,7 +53,7 @@ function About() {
                     but now resides in Austin with her husband and kids.
 
                     </div>
-            </motion.div>
+            </div>
         </div>
 
     )
