@@ -1,0 +1,22 @@
+.jumbotron{
+    width:fit-content;
+    margin-top: 20vh!important;
+    max-width: 90vw;
+    text-align: center;
+    margin:auto;
+    border-radius: 20px;
+    background-color: #ffffff00;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    padding:1%;
+  }
+  .jheader{
+    font-size:10vh;
+    font-weight: bolder;
+  }
+  .jP{
+    font-size:7vh;
+    font-weight: bolder;
+    color:rgb(94, 94, 94);
+  }
