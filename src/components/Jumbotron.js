@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import '../styles/jt.css'
 const variants = {
     visible: { opacity: 1 },
     hidden: { opacity: 0 },
