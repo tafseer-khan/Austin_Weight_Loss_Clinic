@@ -1,10 +1,5 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { motion } from "framer-motion";
-const variants = {
-    visible: { opacity: 1 },
-    hidden: { opacity: 0 },
-}
 
 function About() {
     return (

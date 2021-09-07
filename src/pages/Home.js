@@ -7,9 +7,12 @@ function Home(){
     
 
         return (
+            <div>
             <div class="homeBG">
                 <Navbar />
                 <Jumbotron />
+            </div>
+
             </div>
         )
 }
