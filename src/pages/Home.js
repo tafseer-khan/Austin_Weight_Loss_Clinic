@@ -1,19 +1,23 @@
-import React, { useState, Component } from "react"
-import Navbar from "../components/Navbar"
-import Jumbotron from "../components/Jumbotron"
+import React from "react"
+import LandingVideo from "../components/LandingVideo"
+import CTA from "../components/CTA"
+import Info from "../components/Info"
+import PersistentDrawerRight from "../components/NewNav.js"
 
 
-function Home(){
-    
-
-        return (
-            <div>
-            <div class="homeBG">
-                <Navbar />
-                <Jumbotron />
+function Home() {
+    return (
+        <div>
+            <div id='home' className="home">
+                <PersistentDrawerRight/>
+                <LandingVideo name="top" />
+                <CTA />
             </div>
+            <Info />
+        </div>
 
-            </div>
-        )
+    )
+
 }
+
 export default Home;
