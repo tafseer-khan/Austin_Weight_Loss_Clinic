@@ -3,12 +3,12 @@
     width:100vw;
     max-width: 100vw;
     background-color: black;
-    
+    overflow: hidden;
 }
 #landingvid{
     position:absolute;
     object-fit:cover;
-    height:100vh;
+    height: 100vh;
     width:100vw;
     max-width: 100vw;
     z-index: 0;

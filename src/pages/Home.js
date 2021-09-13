@@ -1,8 +1,8 @@
 import React from "react"
 import LandingVideo from "../components/LandingVideo"
 import CTA from "../components/CTA"
-import Info from "../components/Info"
-import PersistentDrawerRight from "../components/NewNav.js"
+import About from "./About"
+import PersistentDrawerRight from "../components/Nav.js"
 
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
                 <LandingVideo name="top" />
                 <CTA />
             </div>
-            <Info />
+            <About />
         </div>
 
     )
