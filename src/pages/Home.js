@@ -7,8 +7,8 @@ import PersistentDrawerRight from "../components/Nav.js"
 
 function Home() {
     return (
-        <div>
-            <div id='home' className="home">
+        <div id='home'>
+            <div id='landingpage'>
                 <PersistentDrawerRight/>
                 <LandingVideo name="top" />
                 <CTA />

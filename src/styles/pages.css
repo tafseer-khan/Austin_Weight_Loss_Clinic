@@ -1,4 +1,12 @@
 .page{
     background-color: white;
     height: 100vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right:15%;
+    box-sizing: border-box;
+}
+.paragraph{
+    margin-top: 15vh;
 }
