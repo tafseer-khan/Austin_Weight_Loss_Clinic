@@ -100,12 +100,12 @@ function Services() {
                             <div class='box'>
                                 <div class='boxcontent'>
                                     <h3 class='header'>
-                                        Human Chorionic Gonadotropin
+                                        HCG
                                     </h3>
                                     <br></br>
                                     <ul>
                                         <li>
-                                            Commonly referred to as HCG.
+                                            Also known as Human Chorionic Gonadotropin.
                                             <ul>
                                                 <li>
                                                     HCG Injection with low calorie diet. 

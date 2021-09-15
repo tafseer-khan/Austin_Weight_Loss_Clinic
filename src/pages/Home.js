@@ -5,6 +5,7 @@ import About from "./About"
 import PersistentDrawerRight from "../components/Nav.js"
 import Treatments from "./Services"
 import Locations from "./Locations"
+import Footer from '../components/Footer'
 import "../styles/hr.scss"
 
 
@@ -19,6 +20,7 @@ function Home() {
             <About  />
             <Treatments/>
             <Locations/>
+            <Footer/>
         </div>
 
     )

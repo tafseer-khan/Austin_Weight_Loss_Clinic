@@ -123,3 +123,24 @@ iframe{
         overflow-y:hidden!important;
     }
 }
+.footer {
+    background-color: black;
+    left:0;
+    bottom:0;
+    color:white;
+    width:100vw;
+    margin-top:10vh;
+    box-shadow:-10px;
+    -webkit-box-shadow: 0px -2px 4px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -2px 4px 1px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -2px 4px -1px rgb(0 0 0 / 20%), 0px -4px 5px 0px rgb(0 0 0 / 14%), 0px -1px 10px 0px rgb(0 0 0 / 12%);;
+    z-index: 1;
+    float:left;
+}
+
+.MuiSvgIcon-root{
+    padding-top:1vh;
+    height:5vh!important; 
+    margin-left:1vw;
+    float:left;
+}
