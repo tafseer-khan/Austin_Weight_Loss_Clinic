@@ -105,3 +105,21 @@ img {
         display: none;
     }
 }
+
+iframe{
+   width:99vw;
+   overflow-y: hidden!important;
+}
+#schedulepage{
+    max-height: 99vh;
+    overflow-y: hidden!important;
+}
+
+@media only screen and (max-width: 1650px) {
+    #schedulepage{
+        overflow-y:visible!important;
+    }
+    iframe{
+        overflow-y:hidden!important;
+    }
+}

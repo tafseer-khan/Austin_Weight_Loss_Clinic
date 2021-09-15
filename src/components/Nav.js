@@ -151,7 +151,7 @@ export default function PersistentDrawerRight() {
                 </div>
                 <Divider />
                 <List>
-                    <ListItemLink onMouseEnter={console.log("hello")} href="#About">
+                    <ListItemLink href="#About">
                         <ListItemText primary={'About Us'} />
                     </ListItemLink>
                     <ListItemLink href="#Services">
