@@ -147,7 +147,7 @@ export default function PersistentDrawerRight() {
                 </div>
                 <Divider />
                 <List>
-                    {["About Us", "Our Treatments", "Contact and Locations","Schedule Appointment"].map(
+                    {["About Us", "Our Services", "Contact and Locations","Schedule Appointment"].map(
                         (text, index) => (
                             <ListItem button key={text}>
                                 <ListItemText primary={text} />

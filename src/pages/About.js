@@ -1,15 +1,15 @@
 import React from "react";
 import '../styles/pages.css'
+import "../styles/hr.scss"
 
 function About() {
     return (
         <div name = 'About'class="page">
-            <div class="paragraph">
                 <h1>
                     We know life can be busy, challenging, and tiring, how can one find the time to worry about their weight?
                     {/* Our goal is to make it easy and manageable, so you dont have to stress.  */}
                 </h1>
-                <hr />
+                <hr data-content='<><><><><>' />
                 <br/>
                 <h2>
                     Our goal is to make it easy and manageable, so you dont have to stress.
@@ -26,12 +26,12 @@ function About() {
                     will get a jumpstart towards your weight loss goals.
                     </h5>
                 </div>
-            </div>
-            <div class="paragraph">
+                <div class = 'paragraph'>
                 <h1>
                     And Meet Your New Bestfriend!
                 </h1>
-                <hr />
+                <hr data-content='<><><><><>' />
+                <br/>
                 <h2>Sharmin Khan, Owner & Founder</h2>
                 <h4>Family Nurse Practitioner</h4>
                 <br/>
@@ -43,7 +43,8 @@ function About() {
                 She has worked in the medical field all over the country for the past two decades,
                 but now resides in Austin with her husband and kids.
                 </h5>
-            </div>
+                </div>
+
         </div>
 
     )

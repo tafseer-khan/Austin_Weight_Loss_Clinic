@@ -1,12 +1,107 @@
-.page{
+.page {
     background-color: white;
-    height: 100vh;
     justify-content: center;
     text-align: center;
     margin-left: 15%;
-    margin-right:15%;
+    margin-right: 15%;
     box-sizing: border-box;
-}
-.paragraph{
     margin-top: 15vh;
+}
+
+.paragraph {
+    margin-top: 15vh;
+}
+
+.box {
+    border: rgba(88, 88, 88, 0.315);
+    background-color: rgba(230, 230, 250, 0);
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .2px;
+    text-align: left;
+    margin-bottom: 10vh;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    line-height: 1.5rem;
+    display: flex;
+    width: inherit;
+}
+
+.header {
+    text-align: center;
+}
+
+.boxcontent {
+    margin: 2% 2% 2% 2%;
+    width: inherit;
+}
+
+.boxbody {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.locimage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 5% 0% 5% 0%;
+    width: 100%;
+    filter: brightness(.8)
+}
+
+[name=Location] .box {
+    background-color: rgba(133, 133, 133, 0.048);
+}
+@media  screen and (max-width: 650px) {
+    .tiny {
+        display: show!important;
+    }
+    .large {
+        display: none;
+    }
+    .small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 651px) {
+    .large {
+        display: none;
+    }
+    .small {
+        display: show;
+    }
+    .tiny {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1451px) {
+    .large {
+        display: show;
+    }
+    .small {
+        display: none;
+    }
+    .tiny {
+        display: none;
+    }
 }

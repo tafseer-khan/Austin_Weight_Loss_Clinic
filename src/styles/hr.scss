@@ -1,0 +1,35 @@
+$hr-height: 3px;
+$hr-line-color: currentColor;
+$hr-content-color: currentColor;
+hr {
+    height: $hr-height;
+    overflow: visible;
+    color: #999;
+    position: relative;
+    margin: 2em auto;
+  
+    &::before {
+      content: '';
+      background: linear-gradient(to right, transparent, $hr-line-color, transparent);
+      height: $hr-height;
+      width: 100%;
+      position: absolute;
+      left: 0;
+    }
+    &[data-content] {
+      text-align: center;
+  
+      &::after {
+        content: attr(data-content);
+        position: relative;
+        background: #eee;
+        padding: 0 1.5rem;
+        top: -0.475em;
+        font-size: 3em;
+        line-height: 1;
+        font-family: serif;
+        font-style: italic;
+        color: $hr-content-color;
+      }
+    }
+  }
