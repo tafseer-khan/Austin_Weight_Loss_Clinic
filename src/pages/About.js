@@ -5,7 +5,7 @@ import "../styles/hr.scss"
 function About() {
     return (
         <div id="About" class="page">
-                <h1 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
+                <h1 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600'>
                     We know life can be busy, challenging, and tiring, how can one find the time to worry about their weight?
                     {/* Our goal is to make it easy and manageable, so you dont have to stress.  */}
                 </h1>
