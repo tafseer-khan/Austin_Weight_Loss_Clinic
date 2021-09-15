@@ -9,17 +9,17 @@ function Locations() {
 
     return (
         <div id='Locations' class='page'>
-            <h1>
+            <h1 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                 Our Locations
             </h1>
             <hr data-content='<><><><><>' />
             <br/>
-            <h2>
+            <h2 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                     Feel free to stop by or contact your nearest clinc.
             </h2>
             <br /><br />
             <div class='row'>
-            <div class='col'>
+            <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600'  class='col'>
                     <div class='box'>
                         <div class='boxcontent'>
                             <h2 class='header'>
@@ -63,7 +63,7 @@ function Locations() {
                     </div>
                 </div>
      
-                <div class='col'>
+                <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600'  class='col'>
                     <div class='box'>
                         <div class='boxcontent'>
                             <h2 class='header'>
@@ -108,7 +108,7 @@ function Locations() {
                 </div>
             </div>
             <div class='row'>
-                <div class='col'>
+                <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' class='col'>
                     <div class='box'>
                         <div class='boxcontent'>
                             <h2 class='header'>
@@ -151,7 +151,7 @@ function Locations() {
                         </div>
                     </div>
                 </div>
-                <div class='col'>
+                <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' class='col'>
                     <div class='box'>
                         <div class='boxcontent'>
                             <h2 class='header'>

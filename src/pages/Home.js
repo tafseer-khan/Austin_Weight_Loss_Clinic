@@ -16,7 +16,7 @@ function Home() {
                 <LandingVideo id="top" />
                 <CTA />
             </div>
-            <About />
+            <About  />
             <Treatments/>
             <Locations/>
         </div>

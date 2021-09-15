@@ -2,9 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home"
 import Schedule from './pages/Schedule.js'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
+  AOS.init({
+    disable: 'phone'
+  })
   return (
     <Router>
       <Switch>

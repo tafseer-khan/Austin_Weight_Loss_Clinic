@@ -5,19 +5,19 @@ import '../styles/pages.css'
 function Services() {
 
     return (
-        <div id="Services" class="page">
-                <h1>
+        <div  id="Services" class="page">
+                <h1 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                     Treatements we provide
                 </h1>
                 <hr data-content='<><><><><>' />
                 <br/>
-                <h2>
+                <h2 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                     Our treatments seperate us from just any normal diets.
                 </h2>
                 <br/><br/>
                 <div class='boxbody'>
                     <div class='row'>
-                        <div class='col'>
+                        <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' class='col'>
                             <div class='box'>
                                 <div class='boxcontent'>
                                     <h3 class='header'>
@@ -59,7 +59,7 @@ function Services() {
                                 </div>
                             </div>
                         </div>
-                        <div class='col'>
+                        <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' class='col'>
                             <div class='box'>
                                 <div class='boxcontent'>
                                     <h3 class='header'>
@@ -96,7 +96,7 @@ function Services() {
                         </div>
                     </div>
                     <div class='row'>
-                        <div class='col'>
+                        <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' class='col'>
                             <div class='box'>
                                 <div class='boxcontent'>
                                     <h3 class='header'>
@@ -124,7 +124,7 @@ function Services() {
                                 </div>
                             </div>
                         </div>
-                        <div class='col'>
+                        <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' class='col'>
                         <div class='box'>
                                 <div class='boxcontent'>
                                     <h3 class='header'>

@@ -110,7 +110,7 @@ export default function PersistentDrawerRight() {
                     <Link
                         variant="h4" noWrap className={classes.title}>
 
-                        <a href="#top" style={{
+                        <a href="/#top" style={{
                             fontFamily: "'Playfair Display', serif",
                             color: "white",
                         }}>
@@ -151,13 +151,13 @@ export default function PersistentDrawerRight() {
                 </div>
                 <Divider />
                 <List>
-                    <ListItemLink href="#About">
+                    <ListItemLink href="/#About">
                         <ListItemText primary={'About Us'} />
                     </ListItemLink>
-                    <ListItemLink href="#Services">
+                    <ListItemLink href="/#Services">
                         <ListItemText primary={'Our Services'} />
                     </ListItemLink>
-                    <ListItemLink href='#Locations'>
+                    <ListItemLink href='/#Locations'>
                         <ListItemText primary={'Contact and Locations'} />
                     </ListItemLink>
                     <ListItemLink href='Schedule'>
