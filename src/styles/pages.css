@@ -5,7 +5,7 @@
     margin-left: 15%;
     margin-right: 15%;
     box-sizing: border-box;
-    margin-top: 15vh;
+    padding-top: 10vh;
 }
 
 .paragraph {
@@ -67,9 +67,9 @@ img {
     filter: brightness(.8)
 }
 
-[name=Location] .box {
+/* [name=locations] .box {
     background-color: rgba(133, 133, 133, 0.048);
-}
+} */
 @media  screen and (max-width: 650px) {
     .tiny {
         display: show!important;

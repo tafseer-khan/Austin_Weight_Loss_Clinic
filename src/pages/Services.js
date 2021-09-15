@@ -2,10 +2,10 @@ import React from "react";
 import '../styles/pages.css'
 
 
-function About() {
+function Services() {
 
     return (
-        <div name='About' class="page">
+        <div id="Services" class="page">
                 <h1>
                     Treatements we provide
                 </h1>
@@ -146,4 +146,4 @@ function About() {
     )
 }
 
-export default About;
+export default Services;

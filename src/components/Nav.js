@@ -16,6 +16,10 @@ import '../styles/nav.css'
 
 const drawerWidth = 240;
 
+const ListItemLink=(props)=>{
+    return <ListItem button component='a' {...props}/>;
+}
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
@@ -43,8 +47,8 @@ const useStyles = makeStyles((theme) => ({
     drawer: {
         width: drawerWidth,
         flexShrink: 0,
-        "&:hover":{
-            backgroundColor:"blue"
+        "&:hover": {
+            backgroundColor: "blue"
         }
     },
     drawerPaper: {
@@ -56,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
         // necessary for content to be below app bar
         ...theme.mixins.toolbar,
         justifyContent: 'flex-start',
-        
+
     },
     content: {
         flexGrow: 1,
@@ -105,11 +109,11 @@ export default function PersistentDrawerRight() {
                 <Toolbar>
                     <Link
                         variant="h4" noWrap className={classes.title}>
-                            
-                        <a href="#top" style={{ 
+
+                        <a href="#top" style={{
                             fontFamily: "'Playfair Display', serif",
                             color: "white",
-                            }}>
+                        }}>
                             Austin Weight Loss
                         </a>
                     </Link>
@@ -147,13 +151,18 @@ export default function PersistentDrawerRight() {
                 </div>
                 <Divider />
                 <List>
-                    {["About Us", "Our Services", "Contact and Locations","Schedule Appointment"].map(
-                        (text, index) => (
-                            <ListItem button key={text}>
-                                <ListItemText primary={text} />
-                            </ListItem>
-                        )
-                    )}
+                    <ListItemLink onMouseEnter={console.log("hello")} href="#About">
+                        <ListItemText primary={'About Us'} />
+                    </ListItemLink>
+                    <ListItemLink href="#Services">
+                        <ListItemText primary={'Our Services'} />
+                    </ListItemLink>
+                    <ListItemLink href='#Locations'>
+                        <ListItemText primary={'Contact and Locations'} />
+                    </ListItemLink>
+                    <ListItemLink href='Schedule'>
+                        <ListItemText primary={'Schedule Appointment'} />
+                    </ListItemLink>
                 </List>
             </Drawer>
         </div>

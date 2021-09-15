@@ -13,7 +13,7 @@ function Home() {
         <div id='home'>
             <div id='landingpage'>
                 <PersistentDrawerRight/>
-                <LandingVideo name="top" />
+                <LandingVideo id="top" />
                 <CTA />
             </div>
             <About />

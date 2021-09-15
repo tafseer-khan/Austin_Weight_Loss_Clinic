@@ -8,7 +8,7 @@ import '../styles/pages.css'
 function Locations() {
 
     return (
-        <div name='Location' class='page'>
+        <div id='Locations' class='page'>
             <h1>
                 Our Locations
             </h1>

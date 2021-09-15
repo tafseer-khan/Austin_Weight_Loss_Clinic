@@ -4,7 +4,7 @@ import "../styles/hr.scss"
 
 function About() {
     return (
-        <div name = 'About'class="page">
+        <div id="About" class="page">
                 <h1>
                     We know life can be busy, challenging, and tiring, how can one find the time to worry about their weight?
                     {/* Our goal is to make it easy and manageable, so you dont have to stress.  */}
