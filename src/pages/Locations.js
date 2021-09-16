@@ -44,15 +44,15 @@ function Locations() {
                                         </div>
                                         <div class='row'>
                                             <div class='col'>
-                                                <a class='large' href="nlamar@austinweightlosstoday.com">
+                                                <a class='large' href="mailto:nlamar@austinweightlosstoday.com">
                                                 nlamar@austinweightlosstoday.com
                                                 </a>
                                                 <span class='small'>Email: </span>
-                                                <a class="small" href="nlamar@austinweightlosstoday.com">
+                                                <a class="small" href="mailto:nlamar@austinweightlosstoday.com">
                                                 nlamar@austin....
                                                 </a>
                                                 <span class='small' >...</span>
-                                                <a class='tiny' href="nlamar@austinweightlosstoday.com">Email</a>
+                                                <a class='tiny' href="mailto:nlamar@austinweightlosstoday.com">Email</a>
                                             </div>
                                         </div>
                                     </div>
@@ -88,15 +88,15 @@ function Locations() {
                                         </div>
                                         <div class='row'>
                                             <div class='col'>
-                                                <a class='large' href="roundrocktx@austinweightlosstoday.com">
+                                                <a class='large' href="mailto:roundrocktx@austinweightlosstoday.com">
                                                 roundrocktx@austinweightlosstoday.com
                                                 </a>
                                                 <span class='small'>Email: </span>
-                                                <a class="small" href="roundrocktx@austinweightlosstoday.com">
+                                                <a class="small" href="mailto:roundrocktx@austinweightlosstoday.com">
                                                 roundrocktx@austin
                                                 </a>
                                                 <span class='small' >...</span>
-                                                <a class='tiny' href="roundrocktx@austinweightlosstoday.com">Email</a>
+                                                <a class='tiny' href="mailto:roundrocktx@austinweightlosstoday.com">Email</a>
                                             </div>
                                         </div>
                                     </div>
@@ -133,15 +133,15 @@ function Locations() {
                                         </div>
                                         <div class='row'>
                                             <div class='col'>
-                                                <a class='large' href="leanderclinic@austinweightlosstoday.com">
+                                                <a class='large' href="mailto:leanderclinic@austinweightlosstoday.com">
                                                 leanderclinic@austinweightlosstoday.com
                                                 </a>
                                                 <span class='small'>Email: </span>
-                                                <a class="small" href="leanderclinic@austinweightlosstoday.com">
+                                                <a class="small" href="mailto:leanderclinic@austinweightlosstoday.com">
                                                 leanderclinic@austin
                                                 </a>
                                                 <span class='small' >...</span>
-                                                <a class='tiny' href="leanderclinic@austinweightlosstoday.com">Email</a>
+                                                <a class='tiny' href="mailto:leanderclinic@austinweightlosstoday.com">Email</a>
                                             </div>
                                         </div>
                                     </div>
@@ -176,15 +176,15 @@ function Locations() {
                                         </div>
                                         <div class='row'>
                                             <div class='col'>
-                                                <a class='large' href="pennirae.frisbie@austinweightlosstoday.com">
+                                                <a class='large' href="mailto:pennirae.frisbie@austinweightlosstoday.com">
                                                 pennirae.frisbie@austinweightlosstoday.com
                                                 </a>
                                                 <span class='small'>Email: </span>
-                                                <a class="small" href="pennirae.frisbie@austinweightlosstoday.com">
+                                                <a class="small" href="mailto:pennirae.frisbie@austinweightlosstoday.com">
                                                     pennirae.frisbie@austin
                                                 </a>
                                                 <span class='small' >...</span>
-                                                <a class='tiny' href="pennirae.frisbie@austinweightlosstoday.com">Email</a>
+                                                <a class='tiny' href="mailto:pennirae.frisbie@austinweightlosstoday.com">Email</a>
                                             </div>
                                         </div>
                                     </div>
