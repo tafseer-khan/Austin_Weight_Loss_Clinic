@@ -9,7 +9,9 @@ function Services() {
                 <h1 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                     Treatements we provide
                 </h1>
-                <hr data-content='<><><><><>' />
+                <hr  class ='large' data-content='<><><><><>' />
+                <hr  class ='small' data-content='<><><>' />
+                <hr  class ='tiny' data-content='<>' />
                 <br/>
                 <h2 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                     Our treatments seperate us from just any normal diets.

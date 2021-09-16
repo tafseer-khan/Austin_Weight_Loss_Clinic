@@ -158,3 +158,8 @@ iframe{
     padding-bottom:1vh;
 }
 
+@media only screen and (max-width: 850px) {
+    .col{
+        width:70vw!important;
+    }
+}

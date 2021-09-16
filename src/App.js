@@ -8,7 +8,6 @@ import 'aos/dist/aos.css';
 
 function App() {
   AOS.init({
-    disable: 'phone'
   })
   return (
     <Router>

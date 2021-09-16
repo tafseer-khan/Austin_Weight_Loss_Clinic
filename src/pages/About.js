@@ -9,7 +9,9 @@ function About() {
                     We know life can be busy, challenging, and tiring, how can one find the time to worry about their weight?
                     {/* Our goal is to make it easy and manageable, so you dont have to stress.  */}
                 </h1>
-                <hr data-content='<><><><><>' />
+                <hr  class ='large' data-content='<><><><><>' />
+                <hr  class ='small' data-content='<><><>' />
+                <hr  class ='tiny' data-content='<>' />
                 <br/>
                 <h2 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                     Our goal is to make it easy and manageable, so you dont have to stress.
@@ -30,7 +32,9 @@ function About() {
                 <h1 data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                     And Meet Your New Bestfriend!
                 </h1>
-                <hr data-content='<><><><><>' />
+                <hr  class ='large' data-content='<><><><><>' />
+                <hr  class ='small' data-content='<><><>' />
+                <hr  class ='tiny' data-content='<>' />
                 <br/>
                 <div data-aos='fade-up' data-aos-delay='100' data-aos-duration='600' >
                 <h2>Sharmin Khan, Owner & Founder</h2>
