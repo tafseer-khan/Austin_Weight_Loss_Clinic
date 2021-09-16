@@ -138,7 +138,7 @@ iframe{
 }
 
 .footer .MuiSvgIcon-root{
-    margin-left:1vw;
+    margin-left:.5vw;
     float:left;
 }
 .footersection{
@@ -148,7 +148,7 @@ iframe{
 }
 .shamelessplug{
     float: right;
-    margin-right:3vw;
+    margin-right:2vw;
 }
 .shamelessplug .MuiSvgIcon-root{
     float:right;
@@ -158,8 +158,15 @@ iframe{
     padding-bottom:1vh;
 }
 
+.social{
+    margin-left:1.5vw;
+}
 @media only screen and (max-width: 850px) {
     .col{
         width:70vw!important;
     }
+    .social{
+        margin-left:2.5vw;
+    }
 }
+

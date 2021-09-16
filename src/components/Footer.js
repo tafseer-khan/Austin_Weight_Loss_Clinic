@@ -9,14 +9,17 @@ function Footer() {
     return (
         <div class='footersection'>
             <div class='footer'>
-                <a target='_blank' href='https://www.facebook.com/austinweightlosstoday/'
-                    style={{ color: 'white' }}>
-                    <FacebookIcon />
-                </a>
-                <a target='_blank' href='https://twitter.com/weightlosharmin?lang=en'
-                    style={{ color: 'white' }}>
-                    <TwitterIcon />
-                </a>
+                <div class='social'>
+                    <a target='_blank' href='https://www.facebook.com/austinweightlosstoday/'
+                        style={{ color: 'white' }}>
+                        <FacebookIcon />
+                    </a>
+                    <a target='_blank' href='https://twitter.com/weightlosharmin?lang=en'
+                        style={{ color: 'white' }}>
+                        <TwitterIcon />
+                    </a>
+                </div>
+
                 <div class='shamelessplug'>
                     <a target='_blank' href='https://github.com/tafseer-khan'
                         style={{ color: 'white' }}>
@@ -26,7 +29,7 @@ function Footer() {
                         style={{ color: 'white' }}>
                         <LinkedInIcon />
                     </a>
-                                Designed By: Tafkhan
+                    Designed By: Tafkhan
                 </div>
             </div>
         </div>
