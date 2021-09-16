@@ -25,8 +25,8 @@ function Footer() {
                     <a target='_blank' href='https://www.linkedin.com/in/tkhan94/'
                         style={{ color: 'white' }}>
                         <LinkedInIcon />
-                                Designed By: Tafkhan
                     </a>
+                                Designed By: Tafkhan
                 </div>
             </div>
         </div>
