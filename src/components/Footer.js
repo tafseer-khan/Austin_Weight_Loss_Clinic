@@ -2,11 +2,11 @@ import React from "react";
 import '../styles/pages.css'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import Link from '@material-ui/core/Link';
 
 
 function Footer() {
     return (
+        <div class= 'footersection'>
         <div class ='footer'>
                 <a target= '_blank'href='https://www.facebook.com/austinweightlosstoday/'
                  style={{color:'white'}}>
@@ -16,6 +16,7 @@ function Footer() {
                  style={{color:'white'}}>
                 <TwitterIcon/>
                 </a>
+        </div>
         </div>
 
     )
