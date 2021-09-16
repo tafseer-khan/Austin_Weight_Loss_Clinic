@@ -137,9 +137,7 @@ iframe{
     float:left;
 }
 
-.MuiSvgIcon-root{
-    padding-top:1vh;
-    height:5vh!important; 
+.footer .MuiSvgIcon-root{
     margin-left:1vw;
     float:left;
 }
@@ -148,3 +146,15 @@ iframe{
     height: fit-content;
     padding-top:5vh;
 }
+.shamelessplug{
+    float: right;
+    margin-right:3vw;
+}
+.shamelessplug .MuiSvgIcon-root{
+    float:right;
+}
+.footer{
+    padding-top:1vh;
+    padding-bottom:1vh;
+}
+
