@@ -20,5 +20,3 @@ MIT
 * Tafseer Khan
 
 ## Links
-
-Deployed on Netlify - https://novice-code-community.herokuapp.com/
