@@ -10,7 +10,6 @@ import "../styles/hr.scss"
 
 
 function Home() {
-    alert("Due to weather complications AWC will be closed Feb 3")
     return (
         <div id='home'>
             <div id='landingpage'>
