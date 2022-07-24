@@ -10,6 +10,7 @@ import "../styles/hr.scss"
 
 
 function Home() {
+    alert("Hormone replacement now available at Round Rock Location!")
     return (
         <div id='home'>
             <div id='landingpage'>
