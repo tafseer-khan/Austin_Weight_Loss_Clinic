@@ -1,30 +1,27 @@
-import React from "react"
-import LandingVideo from "../components/LandingVideo"
-import CTA from "../components/CTA"
-import About from "./About"
-import PersistentDrawerRight from "../components/Nav.js"
-import Treatments from "./Services"
-import Locations from "./Locations"
-import Footer from '../components/Footer'
-import "../styles/hr.scss"
-
+import React from "react";
+import LandingVideo from "../components/LandingVideo";
+import CTA from "../components/CTA";
+import About from "./About";
+import PersistentDrawerRight from "../components/Nav.js";
+import Treatments from "./Services";
+import Locations from "./Locations";
+import Footer from "../components/Footer";
+import "../styles/hr.scss";
 
 function Home() {
-    return (
-        <div id='home'>
-            <div id='landingpage'>
-                <PersistentDrawerRight/>
-                <LandingVideo id="top" />
-                <CTA />
-            </div>
-            <About  />
-            <Treatments/>
-            <Locations/>
-            <Footer/>
-        </div>
-
-    )
-
+  return (
+    <div id="home">
+      <div id="landingpage">
+        <PersistentDrawerRight />
+        <LandingVideo id="top" />
+        <CTA />
+      </div>
+      <About />
+      <Treatments />
+      <Locations />
+      <Footer />
+    </div>
+  );
 }
 
 export default Home;
