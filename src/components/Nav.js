@@ -126,10 +126,6 @@ export default function PersistentDrawerRight() {
             <MenuIcon />
           </IconButton>
         </Toolbar>
-        <Alert severity="warning">
-          Due to inclement weather All AWC locations will be closed on Tuesday
-          01-31-23
-        </Alert>
       </AppBar>
       <main
         className={clsx(classes.content, {
