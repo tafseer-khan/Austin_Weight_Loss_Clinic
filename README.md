@@ -12,7 +12,6 @@ MIT
 * JavaScript
 * Bootstrap
 * Material UI
-* Sass
 
 
 ## Contributors
