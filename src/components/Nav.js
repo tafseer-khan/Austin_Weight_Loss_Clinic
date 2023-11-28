@@ -13,7 +13,6 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import { Link } from "@material-ui/core";
 import "../styles/nav.css";
-import Alert from "@mui/material/Alert";
 
 const drawerWidth = 240;
 
@@ -81,7 +80,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function PersistentDrawerRight() {
   const classes = useStyles();
-  const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
