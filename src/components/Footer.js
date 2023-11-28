@@ -11,6 +11,7 @@ function Footer() {
         <div class="social">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.facebook.com/austinweightlosstoday/"
             style={{ color: "white" }}
           >
@@ -18,6 +19,7 @@ function Footer() {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://twitter.com/weightlosharmin?lang=en"
             style={{ color: "white" }}
           >
@@ -28,6 +30,7 @@ function Footer() {
         <div class="shamelessplug">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/tkhan94/"
             style={{ color: "white" }}
           >
