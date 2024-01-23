@@ -128,11 +128,12 @@ export default function PersistentDrawerRight() {
         </Toolbar>
         {openAlert && (
         <Alert 
-          severity="info" 
+          severity="error" 
+          variant="filled"
           onClose={() => setAlertOpen(false)} // Set open to false to hide the alert
           style={{ 
             fontSize: '1.25rem',
-            lineHeight: '1.5' 
+            lineHeight: '1' 
           }}
           
         >
