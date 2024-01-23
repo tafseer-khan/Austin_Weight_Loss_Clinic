@@ -12,6 +12,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import { Link } from "@material-ui/core";
+import Alert from '@mui/material/Alert';
 import "../styles/nav.css";
 
 const drawerWidth = 240;
@@ -81,6 +82,7 @@ const useStyles = makeStyles((theme) => ({
 export default function PersistentDrawerRight() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
+  const [openAlert, setAlertOpen] = React.useState(true);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -124,6 +126,19 @@ export default function PersistentDrawerRight() {
             <MenuIcon />
           </IconButton>
         </Toolbar>
+        {openAlert && (
+        <Alert 
+          severity="info" 
+          onClose={() => setAlertOpen(false)} // Set open to false to hide the alert
+          style={{ 
+            fontSize: '1.25rem',
+            lineHeight: '1.5' 
+          }}
+          
+        >
+          Skinny Shot Available!
+        </Alert>
+      )}  
       </AppBar>
       <main
         className={clsx(classes.content, {
