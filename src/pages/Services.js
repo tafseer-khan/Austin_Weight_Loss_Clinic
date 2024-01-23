@@ -36,13 +36,12 @@ function Services() {
                   <li>
                     Medication prescriptions (filled at your pharmacy) such as:
                     <ul>
-                      <li>Phentermine</li>
-                      <li>Tenuate</li>
-                      <li>Wegovy</li>
-                      <li>Bontril</li>
-                      <li>Contrave</li>
-                      <li>Qysemia</li>
-                      <li>Saxenda</li>
+                      <li>PHENTERMINE</li>
+                      <li>SEMAGLUTIDES - WEGOVY, OZEMPIC, MOUNJARO, ZEP BOUND</li>
+                      <li>DITHYLPROPION</li>
+                      <li>PHENDIMETRAZINE</li>
+                      <li>CONTRAVE</li>
+                      <li>QYSEMIA</li>
                     </ul>
                     {/* (FDA approved weight loss medications) */}
                   </li>
@@ -67,10 +66,13 @@ function Services() {
                   <li>
                     Female Hormone Replacement
                     <ul>
-                      <li>FDA approved female hormone injections.</li>
                       <li>
-                        Can improve muscle function,metabolism, bone loss, and
-                        effects from menopause.
+                        FDA approved female hormone replacement therapy.
+                        BIO-IDENTICAL
+                      </li>
+                      <li>
+                        Can improve muscle function, metabolism, bone loss,
+                        sexual desire, sexual dysfunction and foggy thinking.
                       </li>
                     </ul>
                   </li>
@@ -80,7 +82,8 @@ function Services() {
                       <li>Low T Therapy.</li>
                       <li>FDA approved male hormone injections.</li>
                       <li>
-                        Can improve weightloss, fertility, sex drive, and mood.
+                        Can improve weight loss, sex drive, mood, fatigue and
+                        muscle mass.
                       </li>
                     </ul>
                   </li>
