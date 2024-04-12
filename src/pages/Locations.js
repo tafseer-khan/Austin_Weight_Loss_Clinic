@@ -180,9 +180,9 @@ function Locations() {
                       <div class="col">
                         <a
                           class="large"
-                          href="mailto:leanderclinic@austinweightlosstoday.com"
+                          href="mailto:leandertx@austinweightlosstoday.com"
                         >
-                          leanderclinic@austinweightlosstoday.com
+                          leandertx@austinweightlosstoday.com
                         </a>
                         <span class="small">Email: </span>
                         <a
