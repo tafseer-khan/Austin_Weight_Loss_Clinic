@@ -162,7 +162,7 @@ function Locations() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.google.com/maps/place/1805+US-183+%23200,+Leander,+TX+78641/@30.5564433,-97.8461661,17z/data=!3m1!4b1!4m5!3m4!1s0x865b2c71e3de1877:0x41175f8552099ab!8m2!3d30.5564387!4d-97.8439774"
+                      href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x865b2d2b347caa37:0x89a3182f8204a82e?entry=s&sa=X&ved=1t:8290&hl=en-US&ictx=111"
                     >
                       1805 S US 183, #200
                     </a>
