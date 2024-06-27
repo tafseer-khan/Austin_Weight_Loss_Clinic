@@ -164,7 +164,7 @@ function Locations() {
                       rel="noreferrer"
                       href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x865b2d2b347caa37:0x89a3182f8204a82e?entry=s&sa=X&ved=1t:8290&hl=en-US&ictx=111"
                     >
-                      1805 S US 183, #200
+                      1805 S Hwy 183
                     </a>
                   </div>
                   <div class="col-8">
