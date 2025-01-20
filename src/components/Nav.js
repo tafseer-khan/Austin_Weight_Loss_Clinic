@@ -137,7 +137,7 @@ export default function PersistentDrawerRight() {
           }}
           
         >
-          Skinny Shot Available!
+          Due to inclement weather all locations will be closed on 01/21/25
         </Alert>
       )}  
       </AppBar>
