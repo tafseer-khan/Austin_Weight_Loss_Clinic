@@ -12,7 +12,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import { Link } from "@material-ui/core";
-import Alert from '@mui/material/Alert';
+// import Alert from '@mui/material/Alert';
 import "../styles/nav.css";
 
 const drawerWidth = 240;
