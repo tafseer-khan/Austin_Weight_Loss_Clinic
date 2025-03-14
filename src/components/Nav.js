@@ -126,7 +126,7 @@ export default function PersistentDrawerRight() {
             <MenuIcon />
           </IconButton>
         </Toolbar>
-        {openAlert && (
+        {/* {openAlert && (
         <Alert 
           severity="error" 
           variant="filled"
@@ -139,7 +139,7 @@ export default function PersistentDrawerRight() {
         >
           Due to inclement weather all locations will be closed on 01/21/25
         </Alert>
-      )}  
+      )}   */}
       </AppBar>
       <main
         className={clsx(classes.content, {

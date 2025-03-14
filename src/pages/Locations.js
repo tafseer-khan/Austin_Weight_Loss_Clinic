@@ -1,9 +1,5 @@
 import React from "react";
 import "../styles/pages.css";
-// import NL from '../assets/Nlamar.jpg'
-// import RR from '../assets/RoundRock.jpg'
-// import LR from '../assets/Leander.jpg'
-// import SM from '../assets/SanMarcos.jpg'
 
 function Locations() {
   return (
@@ -30,55 +26,7 @@ function Locations() {
           <div class="box">
             <div class="boxcontent">
               <h2 class="header">North Lamar</h2>
-              <hr />
-              <div class="locdetail">
-                <div class="row">
-                  <div class="col-4">
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://www.google.com/maps/place/Austin+Weight+Loss+Clinic/@30.3810703,-97.6884144,17z/data=!4m13!1m7!3m6!1s0x8644c94540e61543:0x241821ecbb512901!2s11207+N+Lamar+Blvd+C,+Austin,+TX+78753!3b1!8m2!3d30.3810703!4d-97.6862257!3m4!1s0x8644c94540e61543:0x587867f8697f246f!8m2!3d30.3810302!4d-97.6861848"
-                    >
-                      11207 N Lamar Blvd, #C
-                    </a>
-                  </div>
-                  <div class="col-8">
-                    <div class="row">
-                      <div class="col">
-                        Phone: <a href="callto:5122962170">(512)-296-2170</a>
-                      </div>
-                      <div class="col">
-                        Fax: <a href="callto:5122962172">(512)-296-2172</a>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <a
-                          class="large"
-                          href="mailto:nlamar@austinweightlosstoday.com"
-                        >
-                          nlamar@austinweightlosstoday.com
-                        </a>
-                        <span class="small">Email: </span>
-                        <a
-                          class="small"
-                          href="mailto:nlamar@austinweightlosstoday.com"
-                        >
-                          nlamar@austin....
-                        </a>
-                        <span class="small">...</span>
-                        <a
-                          class="tiny"
-                          href="mailto:nlamar@austinweightlosstoday.com"
-                        >
-                          Email
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr></hr>
-              </div>
+              <h5 class="header">Permanently Closed</h5>
             </div>
           </div>
         </div>
