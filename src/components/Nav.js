@@ -82,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
 export default function PersistentDrawerRight() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const [openAlert, setAlertOpen] = React.useState(true);
+  // const [openAlert, setAlertOpen] = React.useState(true);
 
   const handleDrawerOpen = () => {
     setOpen(true);
