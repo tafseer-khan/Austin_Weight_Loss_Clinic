@@ -47,7 +47,7 @@ function Locations() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.google.com/maps/place/2541+S+IH+35+Frontage+Rd+%23500,+Austin,+TX+78704/@30.2301741,-97.7447869,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4f54cf2e73f:0xe9fa20542c22f3e6!8m2!3d30.2301695!4d-97.7425982?hl=en-US"
+                      href="https://www.google.com/maps/dir//Austin+Weight+Loss+Clinic,+2541+S+I-35+Frontage+Rd,+Round+Rock,+TX+78664/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8644ce206780160f:0x17537c44386879eb?sa=X&ved=1t:57443&ictx=111"
                     >
                       2541 South IH-35, #500
                     </a>
