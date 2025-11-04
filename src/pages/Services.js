@@ -108,7 +108,7 @@ function Services() {
                     GLP1 Injectables (Compounded & Manufactured)
                     <ul>
                       <li>
-                        Weekly injections for appetite suppression and blood sugar regulation.
+                        Appetite suppression and blood sugar regulation.
                       </li>
                     </ul>
                   </li>
@@ -116,7 +116,7 @@ function Services() {
                     B12
                     <ul>
                       <li>
-                        Weekly injections increases metabolism and energy.
+                        Increases metabolism and energy.
                       </li>
                     </ul>
                   </li>
@@ -124,7 +124,7 @@ function Services() {
                     Lipoden
                     <ul>
                       <li>
-                        Weekly injections for liver detox, and fat burner.
+                        Liver detox, and fat burner.
                       </li>
                     </ul>
                   </li>
