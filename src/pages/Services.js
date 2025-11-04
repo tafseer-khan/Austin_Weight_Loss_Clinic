@@ -108,11 +108,23 @@ function Services() {
                     GLP1 Injectables (Compounded & Manufactured)
                     <ul>
                       <li>
-                        Weekly injections with diet and exercise for weight loss
+                        Weekly injections for appetite suppression and blood sugar regulation.
                       </li>
+                    </ul>
+                  </li>
+                  <li>
+                    B12
+                    <ul>
                       <li>
-                        Please check with your clinic location to confirm
-                        availabilty and current pricing.
+                        Weekly injections increases metabolism and energy.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Lipoden
+                    <ul>
+                      <li>
+                        Weekly injections for liver detox, and fat burner.
                       </li>
                     </ul>
                   </li>

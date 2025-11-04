@@ -171,9 +171,9 @@ function Locations() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.google.com/maps/place/900+Bugg+Ln+%23259,+San+Marcos,+TX+78666/@29.8803236,-97.9230039,17z/data=!3m1!4b1!4m5!3m4!1s0x865ca85406cee4c7:0xa711ba36e4ee1294!8m2!3d29.880319!4d-97.9208152"
+                      href="https://www.google.com/maps/place/900+Bugg+Ln+Suite+250,+San+Marcos,+TX+78666/@29.8806038,-97.923971,17z/data=!3m1!4b1!4m6!3m5!1s0x865ca856ab37617d:0x6fddb465a5897c45!8m2!3d29.8805992!4d-97.9213961!16s%2Fg%2F11pvcvc5dk?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D"
                     >
-                      900 Bugg Lane, #259
+                      900 Bugg Lane, #250
                     </a>
                   </div>
                   <div class="col-8">
